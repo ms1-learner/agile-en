@@ -1,16 +1,21 @@
-# Challenge: Testing and Validation
+# Challenge 1: Testing and Validation
 
 ## Description
+
 Use your knowledge of testing to complete the requirements below.
+
 - Only "Mt. Fuji" requirements need to be completed for this Challenge
 - "Mt. Kilimanjaro" and "Mt. Everest" are optional for completion. They are intended to challenge you and help you grow your skills. In order to complete them, these optional difficulty levels may require you to do independent research for topics not covered in this course.
 
 ## Requirements
-Write a function `my_assert` in Python, in the script below, that accepts two arguments: 
+
+Write a function `my_assert` in Python, in the script below, that accepts two arguments:
+
 1. an expression `expr` that will evaluate to a bool value.
 2. an optional message `msg` to be returned if `expr` evaluates to `false`.
 
 Your function should also include the following:
+
 - return an error message "No expression provided" if there is no `expr` argument.
 - a generic error message to be used if `msg` is not provided.
 
@@ -80,7 +85,6 @@ greeting(get_name("Frosty the Snowman"), divide_by_two(add_two(2)))
 
 ```
 
-
-
 ## Submission
+
 Submit your work here: [placeholder]
