@@ -10,7 +10,7 @@ In this challenge, you will work on a simple Python program to convert temperatu
 
 ### Task 1: Clone and Update the Project
 
-1. Fork this [project](https://github.com/ms1-learner/temperature_converter) on Github.
+1. Fork this [project](https://github.com/ms1-learner/cpp-temp-converter.git) on Github.
 2. Clone the project locally to your machine.
 3. Create a branch `fahrenheit_to_celsius` and switch to it.
 4. Write a function `convertFahrenheitToCelsius` that converts temperature from Fahrenheit to Celsius. The formula you can use is `C = 5/9 * (F - 32)`.
