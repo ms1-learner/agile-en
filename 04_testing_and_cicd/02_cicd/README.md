@@ -18,11 +18,7 @@ A development team is building a travel media website where multiple writers use
 
 ## Deliverables
 
-Provide a clear and concise document as one markdown file that addresses both examples. Tailor your explanations and proposed solutions specifically to the e-commerce platform with customer analysis and the travel media website development. Your document should not require any coding and can utilize visual aids like flowcharts or diagrams to enhance clarity.
-
-## Expected Time Limit
-
-You have 30 minutes to complete this challenge. Focus on providing detailed and coherent explanations for your proposed CI/CD solutions within the given time frame.
+Provide a clear and concise document as one markdown file that addresses both examples. Tailor your explanations and proposed solutions specifically to the e-commerce platform with customer analysis and the travel media website development. Your document should not require any coding and can utilize visual aids like flowcharts or diagrams to enhance clarity. Create a GitHub repository for this challenge and add your markdown file to the repository.
 
 ## Note to Learners
 
