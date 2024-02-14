@@ -52,7 +52,7 @@ In this challenge, you will work on a simple Python program to convert temperatu
 2. Think of any enhancement you think this program can benefit from. Here are some ideas:
    - Add functions to convert between Kelvin and Fahrenheit, and Kelvin and Celsius.
    - On incorrect user input, make the program re-run automatically until a valid input is created.
-   - Use the `<ctime>` C++ library to add some pauses between printed messages to simulate a real program that processes data in the background before sending a response.
+   - Use the `<chrono>` C++ library to add some pauses between printed messages to simulate a real program that processes data in the background before sending a response.
 3. Push the `enhancements` branch to the remote repository.
 4. Create a pull request and specify what changes you’ve made in the pull request description. Make sure to include your name.
 
