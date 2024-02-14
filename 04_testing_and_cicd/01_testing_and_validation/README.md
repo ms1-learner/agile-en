@@ -16,6 +16,7 @@ Then, using `my_assert`, complete the tests for the functions provided. Please s
 #include <iostream>
 #include <vector>
 #include <string>
+#include <algorithm>
 ​
 /*----These functions do not need to be changed----*/
 ​
