@@ -3,7 +3,7 @@
 ## Description
 Use your knowledge of testing to complete the requirements below.
 - Only "Mt. Fuji" requirements need to be completed for this Challenge
-- "Mt. Kilimanjaro" and "Mt. Everest" are optional for completion. They are intended to challenge you and help you grow your skills. In order to complete them, these optional difficulty levels may require you to do independent research for topics not covered in this course.
+- "Mt. Kilimanjaro" is optional for completion.
 ​
 ## Base Requirements
 Write a function `my_assert` in C++, that accepts two arguments:
