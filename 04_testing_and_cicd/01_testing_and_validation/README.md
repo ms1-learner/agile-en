@@ -19,19 +19,9 @@ Then, using `my_assert`, complete the tests for the functions provided. Please s
 #include <algorithm>
 ​
 /*----These functions do not need to be changed----*/
-​
-std::vector<std::string> names {"Nick", "Lewis", "Nikos"};
-​
+​​
 bool contains(const std::string& name, const std::vector<std::string>& list_of_names) {
     return std::find(list_of_names.begin(), list_of_names.end(), name) != list_of_names.end();
-}
-​
-std::string get_name(const std::string& name, const std::vector<std::string>& list_of_names) {
-    if (contains(name, list_of_names)) {
-        return name;
-    } else {
-        return "";
-    }
 }
 ​
 void add_name(const std::string& name, std::vector<std::string>& list_of_names) {
@@ -48,7 +38,6 @@ double divide_by_two(double num) {
 ​
 std::string greeting(const std::string& name, double num) {
     std::string message {"Hello, " + name + ". It is " + std::to_string(num) + " degrees warmer today than yesterday"};
-    std::cout << message << std::endl;
     return message;
 }
 ​
@@ -58,9 +47,7 @@ std::string greeting(const std::string& name, double num) {
 // define `my_assert` here, and use it for the subsequent tests
 ​
 // make a test called `test_contains` for `contains` here
-​
-// make a test called `test_get_name` for `get_name` here
-​
+​​
 // make a test called `test_add_name` for `add_name` here
 ​
 // make a test called `test_add_two` for `add_two` here
@@ -79,6 +66,6 @@ std::string greeting(const std::string& name, double num) {
 /*----Difficulty: Mt. Everest----*/
 ​
 // make a test called `test_complex_greeting` for the entire following expression using `my_assert`. If the expression fails, make sure to give a descriptive message for `msg` that describes how the expression fails.
-// greeting(get_name("Frosty the Snowman", {"Oatmeal", "Prancer", "Rudolph", "Andy"}), divide_by_two(add_two(2)));
+// greeting(contains("Frosty the Snowman", {"Oatmeal", "Prancer", "Rudolph", "Andy"}), divide_by_two(add_two(2)));
 ​
 ```
